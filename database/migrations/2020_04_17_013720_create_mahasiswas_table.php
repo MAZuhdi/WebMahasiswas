@@ -15,7 +15,7 @@ class CreateMahasiswasTable extends Migration
     {
         Schema::create('mahasiswas', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->char('nim', 8)->unique();
+            $table->char('nim', 9)->unique();
             //nilai nim tidak boleh sama, 8 menunjukkan nim harus 8 karakter
             $table->string('nama');
             $table->string('tempat_lahir');
