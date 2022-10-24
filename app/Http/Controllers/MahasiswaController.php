@@ -105,8 +105,8 @@ class MahasiswaController extends Controller
         $mahasiswa = new Mahasiswa;
         $mahasiswa->nim = 'J3D118098';
         $mahasiswa->nama = 'Muhammad Agung Zuhdi';
-        $mahasiswa->tempat_lahir = 'Bekasi';
-        $mahasiswa->tanggal_lahir = '2000-08-01';
+        $mahasiswa->tempat_lahir = 'Bulan';
+        $mahasiswa->tanggal_lahir = '2000-01-11';
         $mahasiswa->fakultas = 'SV';
         $mahasiswa->jurusan = 'Teknik Komputer';
         $mahasiswa->ipk = 3.8;
@@ -119,14 +119,14 @@ class MahasiswaController extends Controller
     {
         
         $mahasiswa=Mahasiswa::create(
-            [
-                'nim' => 'J3D218186',
-                'nama' => 'Yasonia Pratiwi',
-                'tempat_lahir' => 'Bukittinggi',
-                'tanggal_lahir' => '2000-08-10',
+             [
+                'nim' => 'J3C118104',
+                'nama' => 'Indah Mawarni Hadiyanti',
+                'tempat_lahir' => 'Depok',
+                'tanggal_lahir' => '2000-08-15',
                 'fakultas' => 'SV',
-                'jurusan' => 'Teknik Komputer',
-                'ipk' => 3.8
+                'jurusan' => 'Manajemen Informatika',
+                'ipk' => 3.9
 
             ]
             );
@@ -157,13 +157,13 @@ class MahasiswaController extends Controller
         
         $mahasiswa3=Mahasiswa::create(
             [
-                'nim' => 'J3C118104',
-                'nama' => 'Indah Mawarni Hadiyanti',
-                'tempat_lahir' => 'Depok',
-                'tanggal_lahir' => '2000-08-15',
+                'nim' => 'J3D218186',
+                'nama' => 'Yasonia Pratiwi',
+                'tempat_lahir' => 'Bukittinggi',
+                'tanggal_lahir' => '2000-08-10',
                 'fakultas' => 'SV',
-                'jurusan' => 'Manajemen Informatika',
-                'ipk' => 3.6
+                'jurusan' => 'Teknik Komputer',
+                'ipk' => 3.8
 
             ]
             );
